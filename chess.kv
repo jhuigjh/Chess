@@ -1,0 +1,10 @@
+#:kivy 1.0.9
+
+<MenuScreen>:
+    BoxLayout:
+        Button:
+            text: 'Vision'
+            on_press: root.manager.current = 'chessvision'
+        Button:
+            text: 'Chess'
+            on_press: root.manager.current = 'chessgame'
